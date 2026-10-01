@@ -1,0 +1,12 @@
+{
+  "description": "Audio-video lip-sync quality and timing alignment analyzer measuring drift and sync scores in pure PHP",
+  "topics": [
+    "eidcloud",
+    "lipsync-analyzer",
+    "video-sync",
+    "audio-video-drift",
+    "speech-alignment",
+    "ffmpeg",
+    "php8"
+  ]
+}

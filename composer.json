@@ -1,0 +1,29 @@
+{
+  "name": "eidcloud/lipsync-analyzer",
+  "description": "Audio-video lip-sync quality and timing alignment analyzer measuring drift and sync scores in pure PHP",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "MHD. Shadi AL-Hasan",
+      "email": "shadi@eidcloud.com",
+      "role": "Author & Maintainer"
+    }
+  ],
+  "require": {
+    "php": ">=8.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "EidCloud\\LipsyncAnalyzer\\": "src/"
+    }
+  },
+  "bin": [
+    "bin/eidcloud-lipsync"
+  ],
+  "scripts": {
+    "test": "php tests/run_tests.php"
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
